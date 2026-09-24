@@ -1,4 +1,7 @@
-# NikitaCrafts v9 FAST BOOT
-Local-only JavaScript. No CDN, no modules, no external libraries.
-The menu renders immediately. World generation is delayed until after the browser paints the menu.
-Replace the previous GitHub Pages files completely.
+# NikitaCrafts v10 WORLD RENDER
+- Joystick movement retained from v9.
+- Camera swipe direction inverted.
+- 56x56 deterministic voxel world.
+- Actual top and side block faces with underground depth.
+- Water, trees, terrain height variation and biomes.
+- No external libraries or CDN.
