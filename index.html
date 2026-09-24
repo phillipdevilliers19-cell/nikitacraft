@@ -1,7 +1,21 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="theme-color" content="#111820"><title>NikitaCrafts</title><link rel="stylesheet" href="style.css"></head><body>
+<!doctype html>
+<html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>NikitaCrafts</title><link rel="stylesheet" href="style.css">
+</head><body>
 <canvas id="game"></canvas>
-<div id="loading"><div class="logo">NIKITA<span>CRAFTS</span></div><p>Starting game…</p></div>
-<div id="error" hidden><b>NikitaCrafts could not start</b><p id="errText"></p><button onclick="location.reload()">RELOAD</button></div>
-<div id="menu"><div class="card"><div class="logo big">NIKITA<span>CRAFTS</span></div><p>Mobile voxel sandbox</p><input id="seed" placeholder="World seed" value="Nikita123"><button id="new">NEW WORLD</button><button id="cont">CONTINUE</button><small>Works without external libraries • landscape recommended</small></div></div>
-<div id="hud" hidden><div class="top"><b>NIKITA<span>CRAFTS</span></b><div><button id="save">SAVE</button><button id="menuBtn">☰</button></div></div><div id="cross">+</div><div id="target"></div><div id="hotbar"></div><div id="joy"><i></i></div><div id="look"></div><div class="actions"><button id="mine">⛏</button><button id="place">＋</button><button id="jump">↑</button></div><div id="msg"></div></div>
-<script src="game.js"></script></body></html>
+<div id="menu"><div class="card">
+<div class="logo">NIKITA<span>CRAFTS</span></div>
+<p>Fast-boot voxel sandbox</p>
+<input id="seed" value="Nikita123" placeholder="World seed">
+<button id="new">NEW WORLD</button><button id="cont">CONTINUE</button>
+<small id="status">Ready</small>
+</div></div>
+<div id="hud" hidden>
+<div class="top"><b>NIKITA<span>CRAFTS</span></b><button id="menuBtn">☰</button></div>
+<div id="cross">+</div><div id="joy"><i></i></div><div id="look"></div>
+<div class="actions"><button id="mine">⛏</button><button id="place">＋</button><button id="jump">↑</button></div>
+<div id="hotbar"></div><div id="msg"></div>
+</div>
+<script src="game.js"></script>
+</body></html>
